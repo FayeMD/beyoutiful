@@ -1,0 +1,46 @@
+body {
+	background-color: #DEEFF5;
+}
+
+span {
+	color: #4A90E2;
+}
+
+#profile-header {
+	padding: 10px;
+	padding-bottom: 10px;
+	height: 140px;
+	position: relative;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	padding-bottom: 10px;
+	color: black;
+	font-family: Helvetica;
+	font-size: 50pt;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.input-group{
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.form-control {
+	background-color: white;
+}
+
+.btn {
+	background-color: #4A90E2;
+	color: white;
+}

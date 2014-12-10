@@ -1,0 +1,50 @@
+body {
+	background-color: #DEEFF5;
+}
+
+span {
+	color: #4A90E2;
+}
+
+#header {
+	padding: 10px 0;
+	height: 140px;
+	background-color: white;
+	border-bottom: 1px black solid;
+}
+
+
+h1 {
+	font-family: Helvetica;
+	font-size: 50pt;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: #4A90E2;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.user-stats {
+	float: left;
+	background-color: white;
+	height: 140px;
+}
+
+#pic {
+	height: 140px;
+	width: 200px;
+	border: 1px solid black;
+	float: left;
+}
+
+
+
+
+
+
