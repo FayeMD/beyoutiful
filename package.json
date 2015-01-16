@@ -1,10 +1,25 @@
 {
-  "name": "gavin-chat2",
+  "name": "beyoutiful",
   "version": "0.0.1",
   "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.10.1",
-    "redis": "^0.12.1",
+    "sequelize": "^2.0.0-rc3",
     "socket.io": "^1.2.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FayeMD/beyoutiful.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FayeMD/beyoutiful/issues"
+  },
+  "homepage": "https://github.com/FayeMD/beyoutiful"
 }

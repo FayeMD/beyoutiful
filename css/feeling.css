@@ -1,0 +1,91 @@
+body {
+	height: 667px;
+	width: 375px;
+}
+
+.header {
+	margin-top: 25.66px;
+	padding-top: 6.8px;
+	font-size: 20pt;
+	text-align: center;
+	color: #1B3757;
+	background-color: #A1BEDF;
+	height: 51.31px;
+	border-radius: 5px;
+}
+
+
+ .desire {
+ 	border-radius: 5px;
+ 	height: 102.62px;
+ 	width: 80%;
+ 	font-size: 45pt;
+ 	border: 2px solid #4A90E2;
+ 	background-color: white;
+ 	color: #4A90E2;
+ 	text-align: center;
+ 	font-family: 'Shadows Into Light', cursive;
+ 	margin-left: 10%;
+ 	margin-top: 87.20px;
+ }
+
+
+ .gratitude {
+ 	border-radius: 5px;
+ 	height: 102.62px;
+ 	font-size: 45pt;
+ 	width: 80%;
+ 	border: 2px solid #4A90E2;
+ 	background-color: #4A90E2;
+ 	color: white;
+ 	text-align: center;
+ 	font-family: 'Shadows Into Light', cursive;
+ 	margin-left: 10%;
+ 	margin-top: 51.31px;
+ 	vertical-align: center;
+ }
+
+ .challenge {
+ 	border-radius: 5px;
+ 	font-size: 45pt;
+ 	height: 102.62px;
+ 	width: 80%;
+ 	background-color: #1B3757;
+	color: white;
+	border: 2px solid #1B3757;
+	text-align: center;
+ 	font-family: 'Shadows Into Light', cursive;
+ 	margin-left: 10%;
+ 	margin-top: 51.31px;
+ }
+
+.container-fluid {
+	background-color: #A1BEDF;
+	height: 51.31px;
+	border-radius: 5px;
+}
+
+.navbar {
+	width: 375px;
+	text-align: center;
+	color: #1B3757;
+	background-color: #A1BEDF;
+	height: 51.31px;
+
+}
+
+.btn {
+	background-color: #A1BEDF;
+}
+
+.btn-group {
+	height: 200pt;
+	width: 20%;
+	padding-top: 2.5pt;
+	background-color: #A1BEDF;
+}
+
+.glyphicon{
+	font-size: 25pt;
+	background-color: #A1BEDF;
+}

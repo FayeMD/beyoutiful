@@ -1,0 +1,42 @@
+.btn-d {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 12pt;
+	border: 2px solid #4A90E2;
+	color: #4A90E2;
+	background-color: white;
+}
+
+.btn-g {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 12pt;
+	background-color: #4A90E2;
+	border: 2px solid #4A90E2;
+	color: white;
+}
+
+
+.btn-c {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 12pt;
+	background-color: #1B3757;
+	color: white;
+	border: 2px solid #1B3757;
+}
+
+.container-fluid {
+	background-color: #9BB7D8;
+	height: 50px;
+}
+
+.navbar {
+	text-align: center;
+	color: #1B3757;
+	background-color: none;
+	height: 50px;
+	margin-top: 10px;
+}
+
+
