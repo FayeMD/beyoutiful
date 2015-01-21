@@ -1,8 +1,10 @@
 body {
-	background-color: #DEEFF5;
+	height: 667px;
+	width: 375px;
 }
 
 #profile-header {
+	font-family: 'Shadows Into Light', cursive;
 	padding: 10px;
 	padding-bottom: 10px;
 	height: 140px;
@@ -14,9 +16,9 @@ body {
 }
 
 h1 {
+	font-family: 'Shadows Into Light', cursive;
 	padding-bottom: 10px;
 	color: black;
-	font-family: Helvetica;
 	font-size: 50pt;
 	text-align: center;
 }

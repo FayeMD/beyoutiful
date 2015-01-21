@@ -1,16 +1,22 @@
+#filter {
+	width: 375px;
+}
+
 .btn-d {
+	width: 125px;
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 20pt;
 	border: 2px solid #4A90E2;
 	color: #4A90E2;
 	background-color: white;
 }
 
 .btn-g {
+	width: 125px;
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 20pt;
 	background-color: #4A90E2;
 	border: 2px solid #4A90E2;
 	color: white;
@@ -18,25 +24,46 @@
 
 
 .btn-c {
+	width: 125px;
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 20pt;
 	background-color: #1B3757;
 	color: white;
 	border: 2px solid #1B3757;
 }
 
-.container-fluid {
-	background-color: #9BB7D8;
-	height: 50px;
+#container {
+	background-color: #A1BEDF;
+	height: 51.31px;
+	border-radius: 5px;
 }
 
 .navbar {
+	width: 375px;
 	text-align: center;
 	color: #1B3757;
-	background-color: none;
-	height: 50px;
-	margin-top: 10px;
+	background-color: #A1BEDF;
+	height: 51.31px;
+	border-radius: 5px;
 }
 
+#btn {
+	background-color: #A1BEDF;
+}
 
+#fixed-bottom {
+	height: 200pt;
+	width: 23%;
+	padding-top: 2.5pt;
+	background-color: #A1BEDF;
+}
+
+.glyphicon{
+	font-size: 25pt;
+	background-color: #A1BEDF;
+}
+
+.btn-group { 
+	width: 375px;
+}

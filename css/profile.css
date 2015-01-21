@@ -1,4 +1,7 @@
-
+body {
+	height: 667px;
+	width: 375px;
+}
 
 .profile-name {
 	background-color: #4A90E2;
@@ -15,10 +18,12 @@
 .profile-pic {
 	float: left;
 	width: 25%;
+	margin-top: 20px;
 }
 
 .profile-toolbar {
 	float: left;
+	text-align: center;
 	background-color: #4A90E2;
 	color: white;
 	width: 75%;
@@ -27,6 +32,8 @@
 .profile-stats {
 	color: white;
 	float: center;
+	margin-left: 10%;
+
 }
 
 .nav.nav-pills {
@@ -36,6 +43,9 @@
 
 .profile-edit {
 	background-color: #9BB7D8;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 5px;
 }
 
 
@@ -65,4 +75,39 @@
 	background-color: #1B3757;
 	color: white;
 	border: 2px solid #1B3757;
+}
+
+
+
+#container {
+	width: 375px;
+	background-color: #A1BEDF;
+	height: 51.31px;
+	border-radius: 5px;
+}
+
+.navbar {
+	width: 375px;
+	text-align: center;
+	color: #1B3757;
+	background-color: #A1BEDF;
+	height: 51.31px;
+	border-radius: 5px;
+}
+
+#btn {
+	background-color: #A1BEDF;
+}
+
+#fixed-bottom {
+	height: 200pt;
+	width: 23%;
+	padding-top: 2.5pt;
+	background-color: #A1BEDF;
+}
+
+.glyphicon{
+	width: 23%;
+	font-size: 25pt;
+	background-color: #A1BEDF;
 }

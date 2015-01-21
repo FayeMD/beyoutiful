@@ -22,47 +22,42 @@
  </div>
 
 
+<div id="section">
 
 
-<form role="form">
-  
+<form  ACTION="/register" METHOD="post" role="form">  
   <div class="form-group">
     <label for="exampleInputEmail1">Name</label>
-    <input type="text" class="form-control" id="firstname" placeholder="first name">
+    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="first name">
   </div>
 
   <div class="form-group">
-    <input type="text" class="form-control" id="lastname" placeholder="last name">
+    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="last name">
   </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1">Birthdate</label>
-    <input type="date" class="form-control" id="bday" placeholder="dd/mm/yyyy">
+    <input type="date" class="form-control" id="bday" name="bday" placeholder="dd/mm/yyyy">
   </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1">Username</label>
-    <input type="text" class="form-control" id="username" placeholder="be creative~">
+    <input type="text" class="form-control" id="username" name="username" placeholder="be creative~">
   </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter email">
+    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="enter email">
   </div>
 
-  <div class="form-group">
-  
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="verify email">
-  </div>
+
   
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="at least 8 digits">
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="at least 8 digits">
   </div>
 
-  <div class="form-group">
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="verify password">
-  </div>
+
 
 
   
@@ -70,38 +65,21 @@
     <div class="col-sm-offset-2 col-sm-10">
       
 
-        <FORM METHOD="LINK" ACTION="profile.html">
+        
 <INPUT TYPE="submit" VALUE="Create Account">
-</FORM>
    
 
     </div>
   </div>
 
+</div>
+
 </form>
-<nav class="navbar navbar-fixed-bottom">
-  
-  <div class="container-fluid">
-    
-    <div class="btn-group" role="group">
-    <button type="button" class="btn btn-home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
-  </div>
-  
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-profile"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></button>
-  </div>
-  
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-post"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button>
-  </div>
-  
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-  </div>
-  
- 
-  </div>
-</nav>
+
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
